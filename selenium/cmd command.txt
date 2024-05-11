@@ -1,0 +1,5 @@
+appium --config appium1.yml
+
+java -jar selenium-server-4.13.0.jar hub
+
+java -jar selenium-server-4.13.0.jar node --config node1.toml
